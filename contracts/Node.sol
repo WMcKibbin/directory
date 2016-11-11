@@ -1,3 +1,18 @@
+/***************************************************************************
+    
+    Copyright (c) 2016-2018  |  Nebulis Foundation
+
+    Released under The MIT Licence.
+
+    All rights reserved. This software is subject to updates, and is provided 
+    without warranty of any kind, express or implied. Use at own risk.
+
+    Permission is hereby granted to any person obtaining copy of this software 
+    and associated documentation to use, copy, merge, publish and distribute 
+    this software without restriction or charge.
+
+ **************************************************************************/
+
 import "Simulacra.sol";
 
 contract Node is Simulacra {
