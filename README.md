@@ -1,4 +1,4 @@
-![Nebulis Directory](https://github.com/nebulis-io/directory/blob/master/assets/gem_title_gray.png|alt=Nebulis "Nebulis")
+![Nebulis Directory](https://github.com/nebulis-io/directory/blob/master/assets/gem_title_gray.png)
 
 ### Introduction
 
