@@ -15,7 +15,7 @@
 
 pragma solidity ^0.4.0; 
  
-contract simulacra {
+contract Simulacra {
 
 /// @dev triggered on element creation. See GEN DOCS
  	event Gen(int typecode,
