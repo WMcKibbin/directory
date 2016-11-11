@@ -1,4 +1,4 @@
-[[https://github.com/nebulis-io/directory/blob/master/assets/gem_title_gray.png|alt=Nebulis]]
+![Nebulis Directory](https://github.com/nebulis-io/directory/blob/master/assets/gem_title_gray.png|alt=Nebulis "Nebulis")
 
 ### Introduction
 
@@ -31,19 +31,12 @@ When Nebulis is created, there will be 8 "home clusters" on which to register In
 |  | Ox | Cluster |  | Domain | Description |
 | --- | --- | --- | --- | --- | --- |
 | 1. | ipfs:// | home | . | example/ | a universal, generic ".com" equivalent |
-| --- | --- | --- | --- | --- | --- |
 | 2. | ipfs:// | wallet | . |example/ | a cluster for human-readable wallet addresses |
-| --- | --- | --- | --- | --- | --- |
 | 3. | ipfs:// | users | . | example/ | a generic user namespace and repository | 
-| --- | --- | --- | --- | --- | --- |
 | 4. | ipfs:// | wiki | . | example/ | a brand for collaborative content creation |
-| --- | --- | --- | --- | --- | --- |
 | 5. | ipfs:// | watch | . | example/ | a cluster for video content |
-| --- | --- | --- | --- | --- | --- |
 | 6. | ipfs:// | learn | . | example/ | for educational institutions and content |
-| --- | --- | --- | --- | --- | --- |
 | 7. | ipfs:// | shop | . |example/ | a generic commerce cluster |
-| --- | --- | --- | --- | --- | --- |
 | 8. | ipfs:// | public | . | example/ | for brands related to public interest |
 
 
@@ -56,21 +49,13 @@ The "Ox" is the name of the first label of the IPA which indicates the protocol 
 | | Ox | Protocol | Description |
 | --- | --- | --- |--- |
 1. | ipfs:// | IPFS | The Interplanetary File System |
-| --- | --- | --- |--- |
 2. | ipns:// | IPNS | The Interplanetary Name System |
-| --- | --- | --- |--- |
 3. | eth:// | Ethereum | An Ethereum contract or account address |
-| --- | --- | --- |--- |
 4. | http:// | HTTPS | Hypertext Transfer Protocol,, with SSL by default |
-| --- | --- | --- |--- |
 5. | safe:// | SAFE Network | MaidSafe, a distributed internet |
-| --- | --- | --- |--- |
 6. | storj:// | Storj | A decentralized cluod storage platform |
-| --- | --- | --- |--- |
 7. | mail:// | SMTP | Simple Mail Transfer Protocol (email) |
-| --- | --- | --- |--- |
 8. | shh:// | Whisper | An Ethereum communication protocol |
-| --- | --- | --- |--- |
 9. | ftp:// | FTP | File Transfer Protocol (legacy) |
 
 It is possible to activate new oxes, even at the level of the user; however there is no guarantee of the authenticity of the content added to it. An Ox Registry contract is a namespace for registered oxes which will check the authenticity of content-addresses by pinging it for existence. For example, adding an IP-address to a HTTP record using the "http://" ox will cause the contract to ping an API to verify the existence of that IP-address. 
