@@ -44,7 +44,7 @@ It should be noted that once one has an IPA (e.g. *"learn.wikipedia"*) you can a
 
 ### The Ox Registry
 
-The "Ox" is the name of the first label of the IPA which indicates the protocol scheme. This is an 8-byte string. When clusters are created, there are 4 verified oxes activated by default which users can register:
+The "Ox" is the name of the first label of the IPA which indicates the protocol scheme. This is an 8-byte string. When clusters are created, there are a range of verified oxes activated by default which users can register:
 
 | | Ox | Protocol | Description |
 | --- | --- | --- |--- |
