@@ -104,5 +104,9 @@ import "Node.sol";
         string _company = Who(_who).global.company;
         return(_name, _email, _company);
     } 
-                
+    
+    function whoAddress(address base) returns(address) {
+        address _who = accounts[base];
+		return(_who); 
+    } 
  }

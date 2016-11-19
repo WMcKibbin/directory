@@ -97,8 +97,13 @@ contract Dust is Simulacra {
             Gen(6, "cloud/genesis", _clusterdomain, 0,now, _cluster, this, _cluster);
             return true;
     }
-    
-    
+
+/// Allows a user to query the balance of a who contract
+
+    function getBalance(address _who) returns(uint) {
+        return userBal(_who);  
+    }    
+     
 }
 
  
